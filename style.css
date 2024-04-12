@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: gray;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    flex: 1;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile .description {
+    flex: 1;
+}
+
+.profile .description h2 {
+    margin-top: 0;
+}
+
+.profile .description p {
+    margin-bottom: 20px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.nome {
+    color: black;
+}
+
+.repositories-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.repositories-list li {
+    margin-right: 10px;
+}
+
+.repositories-list li:first-child {
+    margin-right: auto;
+}
+
+.repositories-list li:last-child {
+    margin-left: auto;
+}
+
+.slides {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.slide img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.slide1 {
+    order: 3;
+}
+
+.slide2 {
+    order: 2;
+}
+
+.slide3 {
+    order: 1;
+}
+
+.slide4 {
+    order: 4;
+}
+
+.slide5 {
+    order: 5;
+}
+
+#coleagues {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.colleague {
+    text-align: center;
+}
+
+.colleague img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.name {
+    margin: 0;
+}
+
+.links {
+    display: flex;
+}
+
+.links h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.links h1 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.repository-info {
+    padding: 20px;
+}
+
+.repository-info h2.repository-title {
+    margin-top: 0;
+    color: #333; 
+}
+
+.repository-info hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+}
+
+.repository-info p {
+    margin: 10px 0;
+}
+
+.repository-info strong {
+    font-weight: bold;
+}
